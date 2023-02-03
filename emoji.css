@@ -1,0 +1,57 @@
+html {
+    height: 100vh;
+    text-align: center;
+}
+
+body {
+    padding: 10px;
+    height: 100%;
+    font-family: 'Roboto Slab', serif;
+    background: linear-gradient(rgb(216, 78, 78), skyblue);
+}
+
+h1 {
+    text-align: center;
+    color: aliceblue;
+}
+
+#emoji-container {
+    font-size: 50px;
+}
+
+input::placeholder {
+    color: beige;
+    text-shadow: 0px 0px 1px black;
+}
+
+input {
+
+    margin: 0px auto;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    margin-top: 40px;
+    padding: 10px;
+    font-family: 'Roboto Slab', serif;
+    background-color: rgba(85, 141, 191, 0.5);
+
+}
+
+#btn-wrapper {
+    padding-top: 30px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px 50px;
+    border-radius: 5px;
+    border: none;
+    background-color: blueviolet;
+    color: antiquewhite;
+    font-family: 'Roboto Slab', serif;
+}
+
+#shift,
+#pop {
+    background-color: brown;
+}
